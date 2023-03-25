@@ -13,7 +13,7 @@ body{
 }
 
 .informacion{
-	background-color: rgb(236, 158, 94);
+	background-color: rgb(231,239,242);
 	color: rgb(255, 255, 255);
 	padding: 0px 0;
 	height: 90px;
@@ -24,7 +24,7 @@ header{
 	margin: auto;
 	display: flex;
 	justify-content: space-between;
-	padding: 20px;
+	padding: 7px;
 	align-items: center;
 }
 
@@ -78,32 +78,8 @@ section a{
 }
 section a:hover{
 	transition: 1s;
-	background-color: rgb(248, 149, 57);
-	color: rgb(0, 0, 0);
-}
-*{
-    padding: 0;
-    margin: 0;
-}
-.Muestra a img{ /*Imagenes*/
-    width:200px; /*Pocisiones de imagen*/
-    height:200px;
-    border-radius: 50%; /*Redondeo de imagen*/
-    object-fit: cover; /*Se ajusta*/
-}
-.contenido {/*Clase de contenido de texto*/
-    display: flex;
-    margin: 60px;
-}
-.secciones{/*linea vertical (clase de secciones)*/
-    display: flex;
-    align-items: center;
-    padding: 40px;
-}
-.menu-secundario {
-    width: 20%;
-    margin-top: 60px;
-
+	background-color: #f2ac1f;
+	color: rgb(255, 255, 255);
 }
 
 /**/
@@ -127,7 +103,7 @@ section a:hover{
 	margin: 20px;
 	border-radius: 6px;
 	overflow: hidden;
-	background:#fff;
+	background:#EDDB91;
 	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
 	transition: all 400ms ease-out;
 	cursor: default;
@@ -159,11 +135,11 @@ section a:hover{
 	padding: 10px;
 	margin-top: 10px;
 	text-decoration: none;
-	color: #df811d;
-	border: 1px solid #df811d;
+	color: #000000;
+	border: 1px solid #F3A881;
 	border-radius: 4px;
 	transition: all 400ms ease;
-	margin-bottom: 5px;
+	margin-bottom: 8px;
 }
 .card .contenido-card a:hover{
 	background: #f2ac1f;
